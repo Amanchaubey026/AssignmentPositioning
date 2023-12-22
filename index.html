@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning</title>
+    <style>
+        .parent{
+            height: 405px;
+            width: 745px;
+            background-color: #636940;
+            margin: 80px 0px 0px 250px;
+            position: relative;
+        }
+        #child1{
+            height: 50%;
+            width: 50%;
+            background-color: #59A96A;
+        }
+        #child2{
+            height: 50%;
+            width: 50%;
+            background-image: linear-gradient(to right, #805AF2, #06BA6A);
+        }
+        #child3{
+            height: 120px;
+            width:  120px;
+            background-color: #06BA6A;
+            border-radius: 50%;
+            position: absolute;
+            background-color: #C1FF72;
+            top: 10%;
+            left: 42%;
+        }
+        #images img{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            top: 165px;
+            left: 470px;
+        }
+    </style>
+</head>
+<body>
+        <div class="parent">
+            <div id="child1"></div>
+            <div id="child2"></div>
+            <div id="child3"></div>
+            <div id="images">
+                <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" alt="cat">
+            </div>
+        </div>
+</body>
+</html>
